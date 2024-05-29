@@ -37,7 +37,7 @@ public class steps {
 	        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='rightPanel']/div/div/h1")));
 
 	        driver.findElement(By.xpath("//*[@id='rightPanel']/div/div/h1")).isDisplayed();
-	        driver.findElement(By.linkText("Log out")).click();
+	        driver.findElement(By.linkText("Log Out")).click();
 
 	        driver.quit(); 
 	    
