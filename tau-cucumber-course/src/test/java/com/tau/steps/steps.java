@@ -17,7 +17,7 @@ public class steps {
 	@Given("I am in the login page of the Para Bank Application")
 	public void i_am_in_the_login_page_of_the_Para_Bank_Application() {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lahiru\\Downloads\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lahiru\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://parabank.parasoft.com/parabank/index.htm");
 	    
